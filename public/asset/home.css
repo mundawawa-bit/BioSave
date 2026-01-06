@@ -1,0 +1,177 @@
+/* public/css/landing.css */
+
+/* HERO SECTION */
+.hero {
+    padding: 100px 60px;
+    background: linear-gradient(to right, #2e7d32, #66bb6a);
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* SECTION GLOBAL */
+.section {
+    padding: 40px 60px;
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    color: #1b5e20;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* CARD GRID */
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    transition: all 0.35s ease;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+/* CARD IMAGE */
+.card-image {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+/* BADGES */
+.badge {
+    position: absolute;
+    top: 16px;
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    z-index: 2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-status {
+    left: 16px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #d90429;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.badge-type {
+    right: 16px;
+    background: rgba(30, 41, 59, 0.85);
+    color: #fff;
+    backdrop-filter: blur(4px);
+}
+
+/* CARD BODY */
+.card-body {
+    padding: 25px;
+}
+
+.card-body h3 {
+    margin: 0 0 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b5e20;
+}
+
+.card-body .latin {
+    margin: 0 0 15px;
+    font-style: italic;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.card-body .desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #475569;
+    /* Limit text to 3 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* BUTTONS */
+.center-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-main {
+    background: #2e7d32;
+    color: #fff;
+    padding: 14px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.3);
+}
+
+.btn-main:hover {
+    background: #1b5e20;
+    transform: translateY(-2px);
+}
+
+/* CONTACT SECTION */
+.contact {
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+    font-size: 16px;
+}

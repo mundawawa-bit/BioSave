@@ -1,0 +1,234 @@
+/* public/css/submission.css */
+
+/* GLOBAL */
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #166534;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+/* --- INDEX STYLES --- */
+.btn-add {
+    margin: 0 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #166534;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #14532d;
+}
+
+.table-card {
+    margin: 0 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    overflow: hidden; /* Agar radius tabel terjaga */
+    border: 1px solid #e2e8f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f8fafc;
+    font-size: 14px;
+    color: #475569;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+td {
+    font-size: 14px;
+    color: #334155;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* STATUS BADGE */
+.status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.pending { background-color: #fff7ed; color: #c2410c; }
+.approved { background-color: #dcfce7; color: #166534; }
+.rejected { background-color: #fee2e2; color: #b91c1c; }
+
+/* ACTION BUTTONS IN TABLE */
+.btn-sm {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.btn-edit { background: #e0f2fe; color: #0284c7; }
+.btn-delete { background: #fee2e2; color: #dc2626; border: none; cursor: pointer; }
+
+/* --- FORM (CREATE/EDIT) STYLES --- */
+.form-card {
+    max-width: 700px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+    transition: 0.3s;
+    outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #166534;
+    box-shadow: 0 0 0 3px rgba(22, 101, 52, 0.1);
+}
+
+textarea { resize: vertical; }
+
+.btn-submit {
+    width: 100%;
+    background-color: #166534;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #14532d;
+}
+
+/* === MODAL POPUP STYLE === */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Latar belakang gelap transparan */
+    display: none; /* Sembunyikan by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-box {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: slideDown 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-header h3 { margin: 0; color: #166534; font-size: 1.5rem; }
+
+.close-modal {
+    background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #64748b;
+}
+
+.modal-body img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.detail-row { margin-bottom: 10px; display: flex; border-bottom: 1px dashed #eee; padding-bottom: 5px;}
+.detail-label { font-weight: bold; width: 120px; color: #475569; }
+.detail-value { flex: 1; color: #1e293b; }
+.detail-desc { margin-top: 15px; background: #f8fafc; padding: 10px; border-radius: 6px; font-size: 0.95rem; line-height: 1.6; color: #334155; }
+
+.btn-edit {
+    background:#2563eb;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:6px;
+    font-size:13px;
+    text-decoration:none;
+}
+
+.btn-edit:hover {
+    background:#1d4ed8;
+}
+
+.btn-delete {
+    background:#dc2626;
+    color:#fff;
+    border:none;
+    padding:6px 12px;
+    border-radius:6px;
+    font-size:13px;
+    cursor:pointer;
+}
+
+.btn-delete:hover {
+    background:#b91c1c;
+}
+
