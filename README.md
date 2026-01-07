@@ -33,13 +33,19 @@ Pengunjung umum dapat menikmati fitur berikut:
 
 ![Katalog Fauna](assets/katalog-fauna.PNG)
 
+--
+
 * **Detail Edukasi:** Membaca deskripsi mendalam, status konservasi, dan melihat foto asli dari setiap flora/fauna.
 
 ![Detail Katalog](assets/detail-katalog.PNG)
 
+--
+
 * **Informasi BioSave:** Membaca Visi, Misi, dan profil organisasi untuk mengenal lebih jauh tujuan platform ini.
 
 ![About Us](assets/about%20us.PNG)
+
+--
 
 
 ### 2. Role: User
@@ -52,9 +58,13 @@ User dapat melakukan beberapa fungsi, yaitu:
 
 ![Pengajuan User](assets/pengajuan-user.PNG)
 
+--
+
 * **Edit Profil:** Memperbarui informasi biodata kontributor.
 
 ![Edit Profil](assets/edit-profile.PNG)
+
+--
 
 
 
@@ -70,13 +80,19 @@ Admin dapat melakukan beberapa fungsi, yaitu:
 
 ![Kelola Data Fauna](assets/kelola-data-fauna.PNG)
 
+--
+
 * **Konfirmasi Pengajuan:** Memvalidasi data yang dikirimkan oleh role Publik.
 
 ![Konfirmasi Pengajuan](assets/konfirmasi-pengajuan.PNG)
 
+--
+
 * **Data Anggota:** Mengatur akun pengguna yang terdaftar di sistem.
 
 ![Data Anggota](assets/data-anggota.PNG)
+
+--
 
 * **Setting About Us:** Mengubah informasi Visi, Misi, dan Deskripsi platform.
 
