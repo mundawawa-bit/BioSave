@@ -1,3 +1,5 @@
+<h1 align="center">BioSave - Dokumentasi Flora & Fauna</h1>
+
 ## 🌿 Tentang BioSave
 **BioSave** adalah platform digital yang berfungsi sebagai katalog dan pusat dokumentasi flora dan fauna yang hidup di kawasan hutan lindung. Platform ini hadir untuk mengumpulkan, mengelola, dan menyajikan informasi keanekaragaman hayati secara terstruktur, akurat, dan mudah diakses oleh masyarakat.
 
@@ -26,8 +28,19 @@ Halaman depan yang menampilkan katalog publik dan informasi umum BioSave.
 
 Pengunjung umum dapat menikmati fitur berikut:
 * **Katalog Flora & Fauna:** Menjelajahi daftar tumbuhan dan hewan yang ada di hutan lindung secara terstruktur.
+
+![Katalog Flora](assets/katalog-flora.PNG)
+
+![Katalog Fauna](assets/katalog-fauna.PNG)
+
 * **Detail Edukasi:** Membaca deskripsi mendalam, status konservasi, dan melihat foto asli dari setiap flora/fauna.
+
+![Detail Katalog](assets/detail-katalog.PNG)
+
 * **Informasi BioSave:** Membaca Visi, Misi, dan profil organisasi untuk mengenal lebih jauh tujuan platform ini.
+
+![About Us](assets/about%20us.PNG)
+
 
 ### 2. Role: User
 Halaman khusus bagi kontributor untuk melakukan pengajuan data flora/fauna.
@@ -35,9 +48,15 @@ Halaman khusus bagi kontributor untuk melakukan pengajuan data flora/fauna.
 ![User Page](assets/user.jpeg)
 
 User dapat melakukan beberapa fungsi, yaitu:
-* **Dashboard Kontributor:** Melihat statistik berapa banyak data yang sudah Anda ajukan.
 * **Riwayat Pengajuan:** Melacak apakah data Anda sudah disetujui (Approved) atau masih ditinjau (Pending).
+
+![Pengajuan User](assets/pengajuan-user.PNG)
+
 * **Edit Profil:** Memperbarui informasi biodata kontributor.
+
+![Edit Profil](assets/edit-profile.PNG)
+
+
 
 ### 3. Role: Admin (Dashboard)
 Panel kendali utama untuk manajemen konten dan user.
@@ -46,9 +65,24 @@ Panel kendali utama untuk manajemen konten dan user.
 
 Admin dapat melakukan beberapa fungsi, yaitu:
 * **Kelola Flora & Fauna:** Menambah, mengubah, atau menghapus data spesies.
+
+![Kelola Data Flora](assets/kelola-data-flora.PNG)
+
+![Kelola Data Fauna](assets/kelola-data-fauna.PNG)
+
 * **Konfirmasi Pengajuan:** Memvalidasi data yang dikirimkan oleh role Publik.
+
+![Konfirmasi Pengajuan](assets/konfirmasi-pengajuan.PNG)
+
 * **Data Anggota:** Mengatur akun pengguna yang terdaftar di sistem.
+
+![Data Anggota](assets/data-anggota.PNG)
+
 * **Setting About Us:** Mengubah informasi Visi, Misi, dan Deskripsi platform.
+
+![Setting About Us](assets/setting-aboutus.PNG)
+
+
 
 ---
 
