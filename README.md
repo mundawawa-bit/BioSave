@@ -8,32 +8,49 @@
 ## 👥 Hak Akses (Roles)
 Aplikasi ini memiliki tiga hak akses utama dengan fungsi yang berbeda:
 1. **Public:** Masyarakat umum yang dapat menjelajahi katalog flora dan fauna.
-![Landing Page 1](assets/landingpage1.jpeg)
-![Landing Page 2](assets/landingpage2.jpeg)
-![Landing Page 3](assets/landingpage3.jpeg)
 2. **user:** Kontributor yang memiliki akses untuk mengusulkan data flora atau fauna baru.
-![User Page](assets/user.jpeg)
 3. **Admin Dashboard:** Pengelola sistem yang memiliki otoritas penuh untuk validasi data, kelola anggota, dan pengaturan sistem.
-![Admin Page](assets/admin.jpeg)
 
 ---
 
 ## 📸 Dokumentasi Antarmuka (Landing Page & Dashboard)
 
-### 1. Role: User (Landing Page Utama)
+### 1. Role: Public (Landing Page Utama)
 Halaman depan yang menampilkan katalog publik dan informasi umum BioSave.
- (link gambar)
 
-Admin dapat melakukan beberapa fungsi, yaitu:
+![Landing Page 1](assets/landingpage1.jpeg)
 
+![Landing Page 2](assets/landingpage2.jpeg)
 
-### 2. Role: Pubil (Inputter Page)
+![Landing Page 3](assets/landingpage3.jpeg)
+
+Pengunjung umum dapat menikmati fitur berikut:
+* **Katalog Flora & Fauna:** Menjelajahi daftar tumbuhan dan hewan yang ada di hutan lindung secara terstruktur.
+* **Detail Edukasi:** Membaca deskripsi mendalam, status konservasi, dan melihat foto asli dari setiap flora/fauna.
+* **Informasi BioSave:** Membaca Visi, Misi, dan profil organisasi untuk mengenal lebih jauh tujuan platform ini.
+
+### 2. Role: User
 Halaman khusus bagi kontributor untuk melakukan pengajuan data flora/fauna.
 
+![User Page](assets/user.jpeg)
+
+User dapat melakukan beberapa fungsi, yaitu:
+* **Dashboard Kontributor:** Melihat statistik berapa banyak data yang sudah Anda ajukan.
+* **Riwayat Pengajuan:** Melacak apakah data Anda sudah disetujui (Approved) atau masih ditinjau (Pending).
+* **Edit Profil:** Memperbarui informasi biodata kontributor.
 
 ### 3. Role: Admin (Dashboard)
 Panel kendali utama untuk manajemen konten dan user.
 
+![Admin Page](assets/admin.jpeg)
+
+Admin dapat melakukan beberapa fungsi, yaitu:
+* **Kelola Flora & Fauna:** Menambah, mengubah, atau menghapus data spesies.
+* **Konfirmasi Pengajuan:** Memvalidasi data yang dikirimkan oleh role Pubil.
+* **Data Anggota:** Mengatur akun pengguna yang terdaftar di sistem.
+* **Setting About Us:** Mengubah informasi Visi, Misi, dan Deskripsi platform.
+
+---
 
 ---
 
