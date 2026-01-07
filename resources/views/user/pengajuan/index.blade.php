@@ -159,16 +159,16 @@
                Tidak ada gambar
             </p>
 
-            <div class="detail-row"><span>Nama Ilmiah</span><strong id="modalLatin"></strong></div>
-            <div class="detail-row"><span>Jenis</span><strong id="modalType"></strong></div>
-            <div class="detail-row"><span>Famili</span><strong id="modalFamily"></strong></div>
-            <div class="detail-row"><span>Habitat</span><strong id="modalHabitat"></strong></div>
-            <div class="detail-row"><span>Status Konservasi</span><strong id="modalStatus"></strong></div>
-            <div class="detail-row"><span>Status Pengajuan</span><strong id="modalApproval"></strong></div>
-            <div class="detail-row"><span>Tanggal Pengajuan</span><strong id="modalDate"></strong></div>
+            <div class="detail-row"><span>Nama Ilmiah: </span><strong id="modalLatin"></strong></div>
+            <div class="detail-row"><span>Jenis: </span><strong id="modalType"></strong></div>
+            <div class="detail-row"><span>Famili: </span><strong id="modalFamily"></strong></div>
+            <div class="detail-row"><span>Habitat: </span><strong id="modalHabitat"></strong></div>
+            <div class="detail-row"><span>Status Konservasi: </span><strong id="modalStatus"></strong></div>
+            <div class="detail-row"><span>Status Pengajuan: </span><strong id="modalApproval"></strong></div>
+            <div class="detail-row"><span>Tanggal Pengajuan: </span><strong id="modalDate"></strong></div>
 
             <div style="margin-top:15px;">
-                <strong>Deskripsi</strong>
+                <strong>Deskripsi: </strong>
                 <p id="modalDesc" style="margin-top:6px;line-height:1.6;"></p>
             </div>
 

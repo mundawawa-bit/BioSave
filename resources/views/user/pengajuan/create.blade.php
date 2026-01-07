@@ -53,10 +53,9 @@
             <label>Status Konservasi</label>
             <select name="status">
                 <option value="">-- Pilih Status --</option>
-                <option value="Dilindungi">Dilindungi</option>
-                <option value="Terancam Punah">Terancam Punah</option>
+                <option value="Terancam (EN)">Terancam</option>
                 <option value="Langka">Langka</option>
-                <option value="Aman">Aman</option>
+                <option value="Rentan">Rentan</option>
             </select>
         </div>
 

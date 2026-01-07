@@ -50,14 +50,9 @@
             <select name="status" required>
                 <option value="">-- Pilih Status --</option>
 
-                <option value="Dilindungi"
-                    {{ old('status', $data->status) === 'Dilindungi' ? 'selected' : '' }}>
-                    Dilindungi
-                </option>
-
-                <option value="Terancam Punah"
-                    {{ old('status', $data->status) === 'Terancam Punah' ? 'selected' : '' }}>
-                    Terancam Punah
+                <option value="Terancam (EN)"
+                    {{ old('status', $data->status) === 'Terancam (EN)' ? 'selected' : '' }}>
+                    Terancam
                 </option>
 
                 <option value="Langka"
@@ -65,9 +60,9 @@
                     Langka
                 </option>
 
-                <option value="Aman"
-                    {{ old('status', $data->status) === 'Aman' ? 'selected' : '' }}>
-                    Aman
+                <option value="Rentan"
+                    {{ old('status', $data->status) === 'Rentan' ? 'selected' : '' }}>
+                    Rentan
                 </option>
             </select>
         </div>

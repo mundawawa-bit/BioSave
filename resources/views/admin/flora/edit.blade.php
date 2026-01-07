@@ -39,10 +39,20 @@
             <label>Status Konservasi</label>
             <select name="status">
                 <option value="">-- Pilih Status --</option>
-                <option value="Dilindungi" {{ $flora->status == 'Dilindungi' ? 'selected' : '' }}>Dilindungi</option>
-                <option value="Terancam Punah" {{ $flora->status == 'Terancam Punah' ? 'selected' : '' }}>Terancam Punah</option>
-                <option value="Langka" {{ $flora->status == 'Langka' ? 'selected' : '' }}>Langka</option>
-                <option value="Aman" {{ $flora->status == 'Aman' ? 'selected' : '' }}>Aman</option>
+                <option value="Terancam (EN)"
+                    {{ old('status', $data->status) === 'Terancam (EN)' ? 'selected' : '' }}>
+                    Terancam
+                </option>
+
+                <option value="Langka"
+                    {{ old('status', $data->status) === 'Langka' ? 'selected' : '' }}>
+                    Langka
+                </option>
+
+                <option value="Rentan"
+                    {{ old('status', $data->status) === 'Rentan' ? 'selected' : '' }}>
+                    Rentan
+                </option>
             </select>
         </div>
 
