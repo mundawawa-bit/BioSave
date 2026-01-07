@@ -46,7 +46,7 @@ Panel kendali utama untuk manajemen konten dan user.
 
 Admin dapat melakukan beberapa fungsi, yaitu:
 * **Kelola Flora & Fauna:** Menambah, mengubah, atau menghapus data spesies.
-* **Konfirmasi Pengajuan:** Memvalidasi data yang dikirimkan oleh role Pubil.
+* **Konfirmasi Pengajuan:** Memvalidasi data yang dikirimkan oleh role Publik.
 * **Data Anggota:** Mengatur akun pengguna yang terdaftar di sistem.
 * **Setting About Us:** Mengubah informasi Visi, Misi, dan Deskripsi platform.
 
@@ -64,7 +64,7 @@ Admin dapat melakukan beberapa fungsi, yaitu:
 ## 👩‍💻 Tim Pengembang
 Proyek ini dikembangkan oleh:
 * **Sinta Rahmati**
-* **Slawa Arguyani Munda**
+* **Salwa Arguyani Munda**
 
 ---
 
