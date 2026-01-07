@@ -48,7 +48,7 @@
             @forelse($fauna as $item)
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ $item->image ? asset('storage/' . $item->image) : 'https://via.placeholder.com/350x220?text=No+Image' }}" alt="{{ $item->name }}">
+                        <img src="{{ $item->image_path ? asset('storage/' . $item->image_path) : 'https://via.placeholder.com/350x220?text=No+Image' }}" alt="{{ $item->name }}">
 
                         <span class="badge badge-status">Terbaru</span>
                         <span class="badge badge-type" style="background:#b45309;">Fauna</span>
